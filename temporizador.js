@@ -35,7 +35,7 @@ function countdown(fecha){
     },1000)
 }
 
-countdown('Sun Jan 15 2021 04:07:20 GMT-0300 (hora estándar de Argentina)')
+countdown('Sun Jan 31 2021 15:07:20 GMT-0300 (hora estándar de Argentina)')
 
 
 
