@@ -1,0 +1,476 @@
+/*CONFIGURACIONES GENERALES*/
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #F1F1F1;
+}
+
+a {
+    margin: 2px;
+    text-decoration: none;
+}
+.clearfix {
+    clear: both;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.fa { /*ESTO ES PARA ESTABLECER TODOS LOS ICONOS A MI MANERA*/
+    color: #fff;
+}
+/* FIN CONFIGURACIONES GENERALES------------------------------------------------------------------------------------*/
+/*CABECERA*/
+.tira_superior {
+    background-color: #555555;
+}
+.tira_superior i {
+    color: #65BA3C;
+    font-size: 14px;
+}
+
+.cabecera {
+    padding: 0px auto;
+    height: 100px;
+    background-color: #000;
+    justify-content: center;
+}
+
+.cabecera .parte-superior {
+    justify-content: space-between;
+}
+.cabecera .menubar {
+    display: none;
+}
+.cabecera .logo {
+    max-width: 17%;
+    width: 900px;
+}
+.cabecera .logo img {
+    cursor: pointer;
+}
+.cabecera .usuario {
+    display: none;
+
+}
+.cabecera .buscador {
+    display: none;
+}
+.cabecera .search {
+    position: relative;
+    right: 40px;
+    background-color: white;
+    border-radius: 5px;
+    width: 44.5%;
+    height: 43px;
+    max-width: 600px;
+}
+.cabecera .search input {
+    border:none;
+    outline:none;
+    width:91.5%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 8px
+}
+.cabecera .search button {
+    position: absolute;
+    width: 6.3%;
+    height: 82%;
+    margin-top: 3px;
+    margin-left: 1px;
+    background-color: #01F603;
+    color: white;
+}
+
+
+.cabecera .login {
+    width: 100px;
+    margin-right:  -50px   
+}
+.cabecera .carrito {
+    position: relative;
+    right: 20px;
+}
+/* FIN CABECERA------------------------------------------------------------------------------------*/
+
+/*CAROUSEL*/
+.boton_caja {
+    width: 120px;
+}
+.carousel-control-prev-icon {
+    background-image: url(https://cdn.jsdelivr.net/gh/persano/bannersmaximus/flechamaxizq.svg);
+    transform: scale(2.5);
+ 
+}
+.carousel-control-next-icon {
+    background-image: url(https://cdn.jsdelivr.net/gh/persano/bannersmaximus/flechamaxizq.svg);
+    transform: scale(2.5) rotate(180deg);
+    
+}
+
+/* FIN CAROUSEL------------------------------------------------------------------------------------*/
+
+/* BANNER AVISO------------------------------------------------------------------------------------*/
+.caja-banner-aviso {
+    text-align: center;
+}
+.caja-banner-aviso span {
+    font-size: 20px;
+}
+
+/* FIN BANNER AVISO------------------------------------------------------------------------------------*/
+
+
+/* TIPOS DE COMPUTADORAS------------------------------------------------------------------------------------*/
+.tipos_pc {
+    width: 23.7%;
+    background-color: white;
+    box-shadow: 0px 1px 1px #ddd;
+    height: auto;
+    cursor: pointer;
+    transition: all 100ms;
+    padding-bottom: 7px ;
+}
+.tipos_pc:hover {
+    box-shadow: 0px 1px 10px #3adf3a , 0px 1px 10px #3adf3a , 0px 1px 10px #3adf3a,0px 1px 10px #3adf3a;
+    
+}
+.tipos_pc img {
+    width: 100%
+}
+.tipos_pc h6 {
+    font-weight: bold;
+    width: 90%;
+    margin: 10px auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #7200FF;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.tipos_pc h6:hover {
+    background-color: #4a03a1 ;
+    transition: all 300ms;
+}
+
+.tipos_pc h6 a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* FIN TIPOS DE COMPUTADORAS------------------------------------------------------------------------------------*/
+
+/* INICIO BARRA DE NAVEGACION EN LA MITAD DE LA WEB------------------------------------------------------------------------------------*/
+.barra-mitad {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.barra-mitad .barra-mitad-item {
+    text-decoration: none;
+    color: #6600CC;
+    transition: all 400ms;
+    width: 16.66%;
+}
+.barra-mitad .barra-mitad-item:hover {
+    transform: scale(1.2,1.2);
+    
+}
+.barra-mitad .barra-mitad-item h5 {
+    font-weight: 700;
+    text-align: center;
+}
+/* FIN BARRA DE NAVEGACION EN LA MITAD DE LA WEB------------------------------------------------------------------------------------*/
+
+
+/* INICIO GALERIA------------------------------------------------------------------------------------*/
+.contenedor_galeria {
+    width: 91%;
+    margin: 30px auto;
+}
+.galeria {
+
+    padding: 0px
+}
+.galeria .galeria-img {
+    width: 406px;
+    height: 392px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px #ccc;
+    transition: all 300ms;
+}
+.galeria .galeria-img:hover {
+    box-shadow: 0px 1px 10px #3adf3a , 0px 1px 10px #3adf3a;
+}
+.galeria .galeria-items {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.galeria .galeria-items .galeria-item img {
+    width: 186px;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px #ccc;
+    transition: all 300ms;
+    
+}
+.galeria .galeria-items .galeria-item img:hover {
+    box-shadow: 0px 1px 10px #3adf3a , 0px 1px 10px #3adf3a;
+    transition: all 300ms;
+
+}
+/* FIN GALERIA------------------------------------------------------------------------------------*/
+
+
+/* INICIO OWL CAROUSEL------------------------------------------------------------------------------------*/
+.contenedor-owl {
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #eadfdf;
+
+}
+.contenedor-owl .feliz-navidad {
+    width: 20%;
+    height: 401px;
+    float:left;
+}
+.contenedor-owl .owl-carousel {
+    width: 80%;
+    float: left;
+}
+
+.logo-owl_carousel {
+    width: 80px !important;
+    position: absolute;
+    left: 10px;
+}
+.item {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: all 200ms;
+}
+.item:hover {
+    box-shadow: 0px 0px 10px #3adf3a , 0px 0px 10px #3adf3a;
+}
+
+.imagen {
+    position: relative;
+}
+.imagen  a{
+    margin:0px;
+}
+
+
+.descripcion a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px auto;
+    font-size: 15px;
+    color: black;
+}
+
+.item:hover .descripcion a {
+    color: #1bb31b;
+}
+.precio h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    color: #01F603;
+    text-shadow: 0px 0px 2px #ddd;
+}
+
+.precio span {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+.precio .boton-item-owl-carousel a {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    width: 100%;
+    margin: 6px 1px;
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #7200FF;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.precio .boton-item-owl-carousel a:hover {
+    background-color: #4a03a1;
+}
+/* FIN CAROUSEL------------------------------------------------------------------------------------*/
+
+/* INICIO FELIZ NAVIDAD------------------------------------------------------------------------------------*/
+.feliz-navidad {
+    border-right: 1px solid #eadfdf;
+}
+.feliz-navidad h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+.feliz-navidad h3 strong {
+    display: block;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.temporizador {
+    margin: 0px auto;
+}
+.tiempo {
+    font-size: 13px;
+    display: block;
+    margin-top: -8px;
+    color: gray;
+    text-align: center;
+}
+#hora,#minuto,#segundo {
+    font-weight: 700;
+    color:#01F603;
+    margin: 0px;
+
+}
+
+/* FIN FELIZ NAVIDAD------------------------------------------------------------------------------------*/
+
+/* INICIO POSTER ------------------------------------------------------------------------------------*/
+.poster {
+    margin: 5% auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,285px);
+    gap: 16px;
+    row-gap: 25px;
+
+}
+.caja-poster {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 2px #ccc,0px 0px 2px #ccc;
+    border-radius: 7px;
+    transition: all 500ms;
+}
+.caja-poster:hover {
+    box-shadow: 0px 0px 10px #3adf3a , 0px 0px 10px #3adf3a;
+}
+.caja-poster:hover  a img {
+    box-shadow: 0px 0px 5px #3adf3a , 0px 0px 5px #3adf3a;
+}
+.poster .caja-poster a,.poster .caja-poster a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.poster-1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+.poster-2 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+.poster-3 {
+    grid-column: 3 / 7;
+    grid-row: 1 / 3;
+}
+.poster-4 {
+    grid-column: 7 / 9;
+    grid-row: 1 / 2;
+}
+.poster-5 {
+    grid-column: 7 / 9;
+    grid-row: 2 / 3;
+}
+/* FIN POSTER------------------------------------------------------------------------------------*/
+
+
+/* INICIO MARCAS------------------------------------------------------------------------------------*/
+
+.marcas {
+    background-color: white;
+    width: 92%;
+    display: table;
+    table-layout: fixed;
+    height: 100px;
+    margin: 50px auto;
+    /*display: flex;*/
+    border: 1px solid #e2e2e2;
+    
+}
+.item-marcas {
+    text-align: center;
+    border-left: 1px solid #e2e2e2;
+    padding: 15px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.item-marcas a {
+    display: block;
+}
+.item-marcas a svg {
+    filter: contrast(0);
+    transition: all 300ms;
+}
+.item-marcas a svg:hover {
+    filter: contrast(1);
+    transform: scale(1.1,1.1);
+}
+
+/* FIN MARCAS------------------------------------------------------------------------------------*/
+
+
+/* INICIO FOOTER------------------------------------------------------------------------------------*/
+.footer-contenedor {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    padding: 15px;
+}
+.lista-footer li {
+    list-style: none;
+}
+.contenedor-redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.redes img {
+    height: 35px;
+    width: 40px;
+}
+
+/* FIN FOOTER------------------------------------------------------------------------------------*/
+
+.info-contable {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+
+
+

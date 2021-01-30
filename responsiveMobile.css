@@ -1,0 +1,334 @@
+@media (max-width:576px) { /*MEDIAAAAAA QUERYYYYY----------------------------------------------*/ 
+        /*CABECERA*/
+
+.tira_superior div {
+    display: none;
+    
+}
+
+
+.cabecera {
+    padding: 0px auto;
+    height: 70px;
+    background-color: #000;
+    justify-content: center;
+}
+
+.cabecera .parte-superior {
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecera .menubar {
+    display: initial;
+}
+.cabecera .usuario {
+    display: initial;
+}
+.cabecera .buscador {
+    display: initial;
+}
+.cabecera .logo {
+    max-width: 50%;
+    width: 900px;
+}
+.cabecera .carrito {
+    position: initial;
+}
+.cabecera .carrito span{
+    display: none;
+}
+.cabecera .search,.login,.item-accesos {
+    display: none;
+}
+
+/* FIN CABECERA------------------------------------------------------------------------------------*/
+
+/* BANNER AVISO------------------------------------------------------------------------------------*/
+.banner{
+    display: none;
+}
+/* FIN BANNER AVISO------------------------------------------------------------------------------------*/
+
+/*TIPOS DE PC ------------------------------------------------------------------------------------*/
+.tipos_pc {
+    width: 45%;
+    background-color: white;
+    margin: 4px;
+}
+
+/*FIN DE TIPOS DE PC ------------------------------------------------------------------------------------*/
+
+/*INICIO 2DO BANNER AHORA 12-18 CUOTAS ------------------------------------------------------------------------------------*/
+.banner-ahora-12 {
+    display: none;
+}
+
+/*FIN 2DO BANNER AHORA 12-18 CUOTAS------------------------------------------------------------------------------------*/
+
+/* INICIO BARRA DE NAVEGACION EN LA MITAD DE LA WEB------------------------------------------------------------------------------------*/
+.barra-mitad {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+
+}
+.barra-mitad img {
+    width: 100%;
+}
+.barra-mitad .barra-mitad-item {
+    text-decoration: none;
+    color: #6600CC;
+    transition: all 400ms;
+    width: 25%;
+}
+.barra-mitad .barra-mitad-item:hover {
+    transform: scale(1.2,1.2);
+    
+}
+.barra-mitad .barra-mitad-item h5 {
+    font-weight: 700;
+    width: 100%;
+    font-size: 0.8em;
+}
+/* FIN BARRA DE NAVEGACION EN LA MITAD DE LA WEB------------------------------------------------------------------------------------*/
+
+/* INICIO GALERIA------------------------------------------------------------------------------------*/
+.contenedor_galeria {
+    width: 98%;
+}
+
+.galeria .galeria-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px #ccc;
+    transition: all 300ms;
+    margin: 10px auto;
+}
+.galeria .galeria-img:hover {
+    box-shadow: 0px 1px 10px #3adf3a , 0px 1px 10px #3adf3a;
+}
+.galeria .galeria-items {
+    flex-wrap: wrap;
+    
+}
+.galeria .galeria-items .galeria-item {
+    width: 47%;
+    margin-bottom: 10px;
+    
+}
+.galeria .galeria-items .galeria-item img {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px #ccc;
+    transition: all 300ms;
+    
+}
+.galeria .galeria-items .galeria-item img:hover {
+    box-shadow: 0px 1px 10px #3adf3a , 0px 1px 10px #3adf3a;
+    transition: all 300ms;
+
+}
+/* FIN GALERIA------------------------------------------------------------------------------------*/
+
+/* INICIO FELIZ NAVIDAD------------------------------------------------------------------------------------*/
+.feliz-navidad {
+    border-right: none;
+    margin: 10px auto;
+}
+.feliz-navidad h3 {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.feliz-navidad h3 strong {
+    display: block;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.temporizador {
+    margin: 0px auto;
+}
+.tiempo {
+    font-size: 13px;
+    display: block;
+    margin-top: -8px;
+    color: gray;
+    text-align: center;
+}
+#hora,#minuto,#segundo {
+    font-weight: 700;
+    color:#01F603;
+    margin: 0px;
+
+}
+
+/* FIN FELIZ NAVIDAD------------------------------------------------------------------------------------*/
+
+/* INICIO OWL CAROUSEL------------------------------------------------------------------------------------*/
+.contenedor-owl {
+    width: 98%;
+    height: auto;
+    margin: 10px auto;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #eadfdf;
+
+}
+.contenedor-owl .feliz-navidad {
+    width: 100%;
+    height: auto;
+    float:none;
+}
+.contenedor-owl .owl-carousel {
+    width: 100%;
+    float: none;
+}
+
+.logo-owl_carousel {
+    width: 80px !important;
+    position: absolute;
+    left: 10px;
+}
+.item {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: all 200ms;
+}
+.item:hover {
+    box-shadow: 0px 0px 10px #3adf3a , 0px 0px 10px #3adf3a;
+}
+
+.imagen {
+    position: relative;
+}
+.imagen  a{
+    margin:0px;
+}
+
+
+.descripcion a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px auto;
+    font-size: 15px;
+    color: black;
+}
+
+.item:hover .descripcion a {
+    color: #1bb31b;
+}
+.precio h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    color: #01F603;
+    text-shadow: 0px 0px 2px #ddd;
+}
+
+.precio span {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+.precio .boton-item-owl-carousel a {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    width: 100%;
+    margin: 6px 1px;
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #7200FF;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.precio .boton-item-owl-carousel a:hover {
+    background-color: #4a03a1;
+}
+/* FIN CAROUSEL------------------------------------------------------------------------------------*/
+
+/* INICIO POSTER ------------------------------------------------------------------------------------*/
+.poster {
+    margin: 5% auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(4,150px);
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+.caja-poster {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 2px #ccc,0px 0px 2px #ccc;
+    border-radius: 7px;
+    transition: all 500ms;
+}
+.caja-poster:hover {
+    box-shadow: 0px 0px 10px #3adf3a , 0px 0px 10px #3adf3a;
+}
+.caja-poster:hover  a img {
+    box-shadow: 0px 0px 5px #3adf3a , 0px 0px 5px #3adf3a;
+}
+.poster .caja-poster a,.poster .caja-poster a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.poster-1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+.poster-2 {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+}
+.poster-3 {
+    grid-column: 1 / 9;
+    grid-row: 2 / 4;
+}
+.poster-4 {
+    grid-column: 5 / 9;
+    grid-row: 1 / 2;
+}
+.poster-5 {
+    grid-column: 5 / 9;
+    grid-row: 4 / 5;
+}
+/* FIN POSTER------------------------------------------------------------------------------------*/
+
+/* INICIO MARCAS------------------------------------------------------------------------------------*/
+
+.contenedor-marcas {
+    display: none;
+}
+/* FIN MARCAS------------------------------------------------------------------------------------*/
+
+/* INICIO FOOTER------------------------------------------------------------------------------------*/
+
+.lista-footer-categorias,.lista-footer-marcas,.lista-footer-masbuscado,.lista-footer-ayuda {
+    display: none;
+}
+
+/* FIN FOOTER------------------------------------------------------------------------------------*/
+}
+
+
+
+
+
+
