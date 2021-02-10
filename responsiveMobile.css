@@ -1,4 +1,4 @@
-@media (max-width:576px) { /*MEDIAAAAAA QUERYYYYY----------------------------------------------*/ 
+@media (max-width:768px) { /*MEDIAAAAAA QUERYYYYY----------------------------------------------*/ 
         /*CABECERA*/
 
 .tira_superior div {
@@ -20,25 +20,27 @@
 }
 .cabecera .menubar {
     display: initial;
+    position: absolute;
+
 }
-.cabecera .usuario {
+.iconos-responsive-mobile {
     display: initial;
 }
-.cabecera .buscador {
-    display: initial;
-}
+
 .cabecera .logo {
-    max-width: 50%;
-    width: 900px;
+    max-width: 200px;
+    width: 50%;
+    margin-left: 30px;
 }
-.cabecera .carrito {
+.cabecera .carritox {
     position: initial;
 }
-.cabecera .carrito span{
+.cabecera .search,.login,.carrito,.item-accesos {
     display: none;
 }
-.cabecera .search,.login,.item-accesos {
-    display: none;
+
+.iconos-responsive-mobile a {
+    margin: 5px;
 }
 
 /* FIN CABECERA------------------------------------------------------------------------------------*/
@@ -67,10 +69,11 @@
 
 /* INICIO BARRA DE NAVEGACION EN LA MITAD DE LA WEB------------------------------------------------------------------------------------*/
 .barra-mitad {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-
+    width: 95%;
+    margin: 20px auto 20px auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
 }
 .barra-mitad img {
     width: 100%;
@@ -79,7 +82,7 @@
     text-decoration: none;
     color: #6600CC;
     transition: all 400ms;
-    width: 25%;
+    width: 100%;
 }
 .barra-mitad .barra-mitad-item:hover {
     transform: scale(1.2,1.2);
@@ -88,7 +91,7 @@
 .barra-mitad .barra-mitad-item h5 {
     font-weight: 700;
     width: 100%;
-    font-size: 0.8em;
+    font-size: 13px;
 }
 /* FIN BARRA DE NAVEGACION EN LA MITAD DE LA WEB------------------------------------------------------------------------------------*/
 
@@ -98,7 +101,8 @@
 }
 
 .galeria .galeria-img {
-    width: 100%;
+    display: block;
+    width: 96%;
     height: auto;
     border-radius: 4px;
     box-shadow: 0px 1px 3px #ccc;
@@ -263,16 +267,16 @@
 .poster {
     margin: 5% auto;
     width: 90%;
+
+    /*max-width: 430px;*/
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(4,150px);
+    grid-template-rows: repeat(4, 1fr);
     column-gap: 10px;
     row-gap: 10px;
 
 }
 .caja-poster {
-    width: 100%;
-    height: 100%;
     box-shadow: 0px 0px 2px #ccc,0px 0px 2px #ccc;
     border-radius: 7px;
     transition: all 500ms;
@@ -327,8 +331,77 @@
 /* FIN FOOTER------------------------------------------------------------------------------------*/
 }
 
+@media screen and (min-width:769px) and (max-width:992px) {
+    /*CABECERA*/
+.tira_superior {
+    background-color: #555555;
+    height: 28px;
+}
+.tira_superior i {
+    color: #65BA3C;
+    font-size: 14px;
+}
+.tira_superior a {
+    vertical-align: super;
+}
+
+.cabecera {
+    padding: 0px auto;
+    height: 100px;
+    background-color: #000;
+    justify-content: center;
+}
+
+.cabecera .logo {
+    max-width: 17%;
+    width: 900px;
+}
 
 
+.cabecera .search {
+    position: relative;
+    right: 0px;
+    background-color: white;
+    border-radius: 5px;
+    width: 40%;
+    height: 43px;
+    max-width: 600px;
+}
+.cabecera .search input {
+    border:none;
+    outline:none;
+    width:88%;
+    border-radius: 5px;
+    padding: 9px 8px 9px 8px ;
+    margin-left: 0px;
+}
+.cabecera .search .boton {
+    width: 11%;
+    height: 82%;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #04e404;
+    color: white;
+    margin: 0px 2px 3px 0px
+}
+
+.cabecera .login {
+    width: 80px;
+    margin-right:  0px;   
+}
+.cabecera .login img {
+    width: 100%;
+}
+.cabecera .carrito {
+    position: static;
+    display: block;
+    width: 70px;
+    padding-top: 10px;
+}
+.cabecera .carrito i,span {
+}
+/* FIN CABECERA------------------------------------------------------------------------------------*/
+}
 
 
 

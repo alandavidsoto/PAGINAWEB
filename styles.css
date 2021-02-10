@@ -41,6 +41,7 @@ a {
 
 .cabecera .parte-superior {
     justify-content: space-between;
+    align-items: center;
 }
 .cabecera .menubar {
     display: none;
@@ -52,13 +53,10 @@ a {
 .cabecera .logo img {
     cursor: pointer;
 }
-.cabecera .usuario {
+.iconos-responsive-mobile {
     display: none;
+}
 
-}
-.cabecera .buscador {
-    display: none;
-}
 .cabecera .search {
     position: relative;
     right: 40px;
@@ -76,8 +74,7 @@ a {
     padding-bottom: 9px;
     margin-left: 8px
 }
-.cabecera .search button {
-    position: absolute;
+.cabecera .search .boton {
     width: 6.3%;
     height: 82%;
     margin-top: 3px;
@@ -168,8 +165,9 @@ a {
 
 /* INICIO BARRA DE NAVEGACION EN LA MITAD DE LA WEB------------------------------------------------------------------------------------*/
 .barra-mitad {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    width: 95%;
+    margin: 50px auto 30px auto;
+    display:flex;
 }
 
 .barra-mitad .barra-mitad-item {
@@ -252,6 +250,7 @@ a {
     position: absolute;
     left: 10px;
 }
+
 .item {
     margin: 5px;
     padding: 8px;
